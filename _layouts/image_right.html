@@ -4,5 +4,8 @@
                 <h2>{{ page.title }}</h2>
 		<p class="major"> {{ content }}</p>
         </div>
+        <div class="image">
+                <img src="{{ "assets/images/" | append: page.image | relative_url }}" alt="" style="object-position:center;" />
+        </div>
 </section>
 {% include footer.html %}
