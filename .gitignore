@@ -1,5 +1,6 @@
 .jekyll-cache
 .jekyll-metadata
-.DS_Store
+*.DS_Store
 _site/**
 html5up-story/**
+*.swp
