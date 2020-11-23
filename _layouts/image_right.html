@@ -5,7 +5,7 @@
 		<p class="major"> {{ content }}</p>
         </div>
         <div class="image">
-                <img src="{{ "assets/images/" | append: page.image | relative_url }}" alt="" style="object-position:center;" />
+                <img src="{{ "assets/images/" | append: page.image | relative_url }}" alt="" style="object-position:{{ page.image_position }};" />
         </div>
 </section>
 {% include footer.html %}
